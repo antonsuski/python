@@ -130,7 +130,7 @@ if len(sys.argv) == 2:
 
     # Делаем расчет энтрапии
     entropy, avg_code_length = calculate_entropy_and_average_code_length(uniq_symbols_list,total_symbols)
-    print("Энтрапия данных:", entropy)
+    print("Энтропия данных:", entropy)
     print("Средняя длина кода:", avg_code_length)
 
     # Создаем дерево Хаффмана и коды
