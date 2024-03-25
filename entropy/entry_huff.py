@@ -121,7 +121,7 @@ if len(sys.argv) == 2:
 
     # Считываем данные из файла
     with open(file_path, 'r', encoding='utf-8') as file:
-        data = file.read()
+        data = file.read().lower()
     
     # Подсчитываем количество символов в файле
     total_symbols = len(data)
