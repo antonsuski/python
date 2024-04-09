@@ -11,7 +11,6 @@ class vec2:
         self.y = y
 
 def basic_linear_classifier(set1, set2):
-    
     return numpy.dot(vec, hs)
 
 def make_rand_set(min = -3, max = 3, precision = 2, size = 5):
